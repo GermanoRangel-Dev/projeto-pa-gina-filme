@@ -108,3 +108,55 @@ li:hover {
   background-color: #ffffff;
   color: #010101;
 }
+
+.actor-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.banner-1 {
+  background-image: url('https://br.web.img2.acsta.net/newsv7/19/06/18/19/22/5715151.jpg'); 
+}
+
+.banner-2 {
+  background-image: url('https://rollingstone.uol.com.br/media/_versions/coringa_heath_ledger_reproducao_widelg.jpg');
+}
+
+.banner-3 {
+  background-image: url('https://ovicio.com.br/wp-content/uploads/2022/04/20220401-ovicio-gary-oldman.jpg');
+}
+
+.banner-4 {
+  background-image: url('https://cinepop.com.br/wp-content/uploads/2020/12/o-cavaleiro-das-trevas-aaron-eckhart-1.jpg');
+}
