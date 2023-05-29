@@ -246,6 +246,75 @@ span {
   transform: scale(1.2);
 }
 
+.p-contato {
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.span-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.formulario{
+  width: 30%;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form {
+  display: block;
+  padding: 0 px 40px 10px 40px;
+}
+
+input {
+  display: block;
+}
+
+textarea {
+  display: block;
+  border-radius: 15px;
+}
+
+select {
+  color: #ffffff;
+}
+
+date {
+  color: #ffffff;
+  font-size: bold;
+
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 25px;
+}
 
 @media(max-width:768px){
   .footer-navigation{

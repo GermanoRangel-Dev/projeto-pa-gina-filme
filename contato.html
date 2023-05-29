@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contatos</title>
-</head>
-<body>
-  Contatos
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="imagens/logo.jpeg"/>
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="fotos.html" target="_blank">
+            <li>Fotos</li>
+          </a>
+          <a href="comentarios.html" target="_blank">
+            <li>Comentários</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="h1-comentario">Contato</h1>
+    <div> 
+      <p class="p-contato">Deixe sua sugestão, dúvida ou comentário aqui! Sua Opinião é importante para que possamos sempre evoluir e melhorar nossa apresentação.</p> 
+    </div>
+
+    <span class="span-form">
+      <div class="formulario">
+        <form action="index.html">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="digite seu email"/>
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" placeholder="digite sua senha"/>
+          <label for="cpf">CPF</label>
+          <input type="number" id="cpf" name="cpf" placeholder="digite seu CPF"/>
+          <label for="date">Data</label>
+          <input type="date" id="date" name="date" placeholder="data de nascimento"/>
+          <label for="file" style="margin-bottom: 10px;">Arquivo</label>
+          <input type="file" id="file" name="file"/>
+      
+        <select name="assunto" style="margin-bottom: 10px;">
+            <option value="assunto">Qual assunto quer falar?</option>
+            <option value="domingo">Comentário</option>
+            <option value="segunda">Sugestão</option>
+            <option value="terça">Reclamação</option>
+          </select>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="digite o que deseja aqui..."></textarea>
+        <button>Enviar</button>
+      
+        </form>
+      </div>
+    </span>
+
+    <footer>
+      <img style="object-fit: contain;" id="logo" src="imagens/logo.jpeg">
+      <span>Todos os direitos reservados ©</span>
+      <span>Desenvolvido por: <a href="https://germanorangel-dev.github.io/portfolio/" target="_blank">Germano Rangel - Dev</a></span>
+      <nav class="footer-navigation">
+        <ul class="footer-list">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="fotos.html" target="_blank">
+            <li>Fotos</li>
+          </a>
+          <a href="comentarios.html" target="_blank">
+            <li>Comentários</li>
+          </a>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
